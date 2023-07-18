@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./lista.component.css'],
 })
 export class ListaComponent {
-  lista = [
+  products = [
     { nombre: 'Monitor', costo: '100000' },
     { nombre: 'Teclado', costo: '20000' },
     { nombre: 'Gabinete', costo: '50000' },
