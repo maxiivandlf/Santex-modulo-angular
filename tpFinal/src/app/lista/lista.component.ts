@@ -7,9 +7,12 @@ import { Component } from '@angular/core';
 })
 export class ListaComponent {
   lista = [
-    { nombre: 'Monotor', costo: '100000' },
+    { nombre: 'Monitor', costo: '100000' },
     { nombre: 'Teclado', costo: '20000' },
     { nombre: 'Gabinete', costo: '50000' },
+    { nombre: 'Mouse', costo: '30000' },
+    { nombre: 'CPU', costo: '150000' },
+    { nombre: 'RAM', costo: '80000' },
   ];
 
   mostrarLista = true;
