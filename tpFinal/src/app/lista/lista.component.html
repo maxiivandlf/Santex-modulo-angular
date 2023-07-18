@@ -1,0 +1,11 @@
+<div *ngIf="mostrarLista">
+  <mat-list>
+    <mat-list-item *ngFor="let item of lista">
+      {{ item.nombre }} {{ item.costo }}
+    </mat-list-item>
+  </mat-list>
+</div>
+
+<button mat-raised-button color="primary" (click)="toggleLista()">
+  {{ mostrarLista ? "Ocultar lista" : "Mostrar lista" }}
+</button>
